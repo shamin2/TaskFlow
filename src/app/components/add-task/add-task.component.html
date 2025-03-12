@@ -1,0 +1,19 @@
+<form>
+    <div class="form-control">
+      <label for="text">Task</label>
+      <input type="text" id="text" name="text" [(ngModel)]="text" placeholder="Add your task" required />
+    </div>
+  
+    <div class="form-control">
+      <label for="day">Day & Time</label>
+      <input type="text" id="day" name="day" [(ngModel)]="day" placeholder="Add your day & time" required />
+    </div>
+  
+    <div class="form-control form-control-check">
+      <label for="reminder">Set Reminder</label>
+      <input type="checkbox" id="reminder" name="reminder" [(ngModel)]="reminder" />
+    </div>
+  
+    <input type="submit" value="Save Task" class="btn btn-block" />
+  </form>
+  /*ngl model for two data binding between compont and UI*/  
