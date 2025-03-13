@@ -1,5 +1,5 @@
 
-<app-add-task></app-add-task>
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
 <app-task-item 
     *ngFor="Let task of tasks" 
     [task]="task" 
