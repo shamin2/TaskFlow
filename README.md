@@ -17,4 +17,4 @@ TaskFlow is my learning project for Angular, where I'm building and improving my
 - JSON Server for a fake REST API
 
 ---
-🚀 Built while learning Angular
+🚀 Developing while learning Angular
